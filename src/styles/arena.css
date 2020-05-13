@@ -9,7 +9,21 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.fighter-winner{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url('../../resources/win.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fighter-winner img {
+  margin-top: 25%;
+  margin-left: 10%;
+}
 .arena___battlefield {
   display: flex;
   justify-content: space-around;
